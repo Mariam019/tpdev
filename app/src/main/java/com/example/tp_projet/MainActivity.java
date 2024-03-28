@@ -2,6 +2,7 @@ package com.example.tp_projet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.SpannableString;
@@ -83,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View widget) {
                 // Handle click action here, e.g., navigate to registration activity
                 // startActivity(new Intent(MainActivity.this, RegistrationActivity.class));
+                startActivity(new Intent(MainActivity.this, interface2.class));
             }
         };
 
