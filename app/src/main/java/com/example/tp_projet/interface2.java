@@ -1,5 +1,6 @@
 package com.example.tp_projet;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -66,6 +67,7 @@ public class interface2 extends AppCompatActivity {
 
     private void createAccount() {
         // Your account creation logic here
+        startActivity(new Intent(interface2.this, interface3.class));
         Toast.makeText(this, "Account created successfully", Toast.LENGTH_SHORT).show();
     }
 
